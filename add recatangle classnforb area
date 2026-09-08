@@ -1,0 +1,15 @@
+class Rectangle():
+     def area(self, len, bre):
+          print(len * bre)
+
+     def vol(self, len, bre, hei):
+          print(len * bre * hei)
+
+len = int(input("len = "))
+bre = int(input("bre = "))
+hei = int(input("hei = "))
+
+rec1 = Rectangle()
+ 
+rec1.area(len, bre)
+rec1.vol(len, bre, hei)
