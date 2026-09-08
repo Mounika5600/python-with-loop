@@ -1,0 +1,10 @@
+class parent:
+   def dispaly(self):
+     print("parent")
+
+class child(parent):
+   def dispaly(self):
+      print("child")
+
+c = child()
+c.dispaly()
